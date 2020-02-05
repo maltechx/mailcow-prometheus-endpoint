@@ -7,6 +7,6 @@ $mailcow_hostname = $_GET['mailcow_hostname'];
 $mailcow_api_key = $_GET['mailcow_api_key'];
 
 // token used to access the metrics
-$token = '';
+$token = 'test';
 
 ?>

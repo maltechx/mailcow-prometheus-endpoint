@@ -2,7 +2,7 @@
 
 header("Content-type: text/plain; version=0.4.0");
 require_once $_SERVER['DOCUMENT_ROOT'] . '/inc/functions.metrics.inc.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/metrics.config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/setup/metrics.config.php';
 error_reporting(0);
 
 echo "# mailcow prometheus metrics endpoint \n";
